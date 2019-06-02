@@ -1,0 +1,2 @@
+# ClipboardSugar
+Sugar for clipboard
