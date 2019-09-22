@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F163AF592337F449003F10D9 /* ClipboardAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF562337F449003F10D9 /* ClipboardAsserter.swift */; };
+		F163AF5A2337F449003F10D9 /* ClipboardAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF562337F449003F10D9 /* ClipboardAsserter.swift */; };
+		F163AF5B2337F449003F10D9 /* ClipboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF572337F449003F10D9 /* ClipboardModifier.swift */; };
+		F163AF5C2337F449003F10D9 /* ClipboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF572337F449003F10D9 /* ClipboardModifier.swift */; };
+		F163AF5D2337F449003F10D9 /* ClipboardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF582337F449003F10D9 /* ClipboardParser.swift */; };
+		F163AF5E2337F449003F10D9 /* ClipboardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF582337F449003F10D9 /* ClipboardParser.swift */; };
 		F1FA957222A3C1ED009088FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA957122A3C1ED009088FB /* AppDelegate.swift */; };
 		F1FA957422A3C1ED009088FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA957322A3C1ED009088FB /* ViewController.swift */; };
 		F1FA957922A3C1F0009088FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FA957822A3C1F0009088FB /* Assets.xcassets */; };
@@ -14,13 +20,7 @@
 		F1FA958C22A3C2C2009088FB /* ClipboardSugar_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FA958A22A3C2C2009088FB /* ClipboardSugar_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1FA958F22A3C2C2009088FB /* ClipboardSugar_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FA958822A3C2C2009088FB /* ClipboardSugar_iOS.framework */; };
 		F1FA959022A3C2C2009088FB /* ClipboardSugar_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1FA958822A3C2C2009088FB /* ClipboardSugar_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F1FA959922A3C379009088FB /* ClipboardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA959622A3C379009088FB /* ClipboardParser.swift */; };
-		F1FA959A22A3C379009088FB /* ClipboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA959722A3C379009088FB /* ClipboardModifier.swift */; };
-		F1FA959B22A3C379009088FB /* ClipboardAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA959822A3C379009088FB /* ClipboardAsserter.swift */; };
 		F1FA95A622A3C65B009088FB /* ClipboardSugar_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FA95A422A3C65B009088FB /* ClipboardSugar_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1FA95AA22A3C669009088FB /* ClipboardAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA959822A3C379009088FB /* ClipboardAsserter.swift */; };
-		F1FA95AB22A3C669009088FB /* ClipboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA959722A3C379009088FB /* ClipboardModifier.swift */; };
-		F1FA95AC22A3C669009088FB /* ClipboardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA959622A3C379009088FB /* ClipboardParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +48,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F163AF562337F449003F10D9 /* ClipboardAsserter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardAsserter.swift; sourceTree = "<group>"; };
+		F163AF572337F449003F10D9 /* ClipboardModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardModifier.swift; sourceTree = "<group>"; };
+		F163AF582337F449003F10D9 /* ClipboardParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardParser.swift; sourceTree = "<group>"; };
 		F1FA956E22A3C1ED009088FB /* ClipboardSugarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardSugarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FA957122A3C1ED009088FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1FA957322A3C1ED009088FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,9 +60,6 @@
 		F1FA958822A3C2C2009088FB /* ClipboardSugar_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClipboardSugar_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FA958A22A3C2C2009088FB /* ClipboardSugar_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClipboardSugar_iOS.h; sourceTree = "<group>"; };
 		F1FA958B22A3C2C2009088FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1FA959622A3C379009088FB /* ClipboardParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardParser.swift; sourceTree = "<group>"; };
-		F1FA959722A3C379009088FB /* ClipboardModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardModifier.swift; sourceTree = "<group>"; };
-		F1FA959822A3C379009088FB /* ClipboardAsserter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardAsserter.swift; sourceTree = "<group>"; };
 		F1FA95A222A3C65B009088FB /* ClipboardSugar_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClipboardSugar_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FA95A422A3C65B009088FB /* ClipboardSugar_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClipboardSugar_macOS.h; sourceTree = "<group>"; };
 		F1FA95A522A3C65B009088FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,9 +136,9 @@
 		F1FA959522A3C2F9009088FB /* src */ = {
 			isa = PBXGroup;
 			children = (
-				F1FA959822A3C379009088FB /* ClipboardAsserter.swift */,
-				F1FA959722A3C379009088FB /* ClipboardModifier.swift */,
-				F1FA959622A3C379009088FB /* ClipboardParser.swift */,
+				F163AF562337F449003F10D9 /* ClipboardAsserter.swift */,
+				F163AF572337F449003F10D9 /* ClipboardModifier.swift */,
+				F163AF582337F449003F10D9 /* ClipboardParser.swift */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -249,6 +249,7 @@
 					};
 					F1FA95A122A3C65B009088FB = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -332,9 +333,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1FA959922A3C379009088FB /* ClipboardParser.swift in Sources */,
-				F1FA959A22A3C379009088FB /* ClipboardModifier.swift in Sources */,
-				F1FA959B22A3C379009088FB /* ClipboardAsserter.swift in Sources */,
+				F163AF5D2337F449003F10D9 /* ClipboardParser.swift in Sources */,
+				F163AF592337F449003F10D9 /* ClipboardAsserter.swift in Sources */,
+				F163AF5B2337F449003F10D9 /* ClipboardModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +343,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1FA95AC22A3C669009088FB /* ClipboardParser.swift in Sources */,
-				F1FA95AA22A3C669009088FB /* ClipboardAsserter.swift in Sources */,
-				F1FA95AB22A3C669009088FB /* ClipboardModifier.swift in Sources */,
+				F163AF5E2337F449003F10D9 /* ClipboardParser.swift in Sources */,
+				F163AF5A2337F449003F10D9 /* ClipboardAsserter.swift in Sources */,
+				F163AF5C2337F449003F10D9 /* ClipboardModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +583,7 @@
 		F1FA95A822A3C65B009088FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -603,6 +605,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -612,6 +615,7 @@
 		F1FA95A922A3C65B009088FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;

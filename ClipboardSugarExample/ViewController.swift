@@ -2,6 +2,9 @@ import UIKit
 import ClipboardSugar_iOS
 
 class ViewController: UIViewController {
+   /**
+    * - Fixme: ⚠️️ Move to unittest
+    */
    override func viewDidLoad() {
       super.viewDidLoad()
       let hasString = ClipboardAsserter.hasString()
