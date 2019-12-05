@@ -83,10 +83,28 @@
 			path = ClipboardSugarExampleMacOS;
 			sourceTree = "<group>";
 		};
+		F17D07D32399864000BA934A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F17D07D42399864000BA934A /* ClipboardSugar */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F17D07D42399864000BA934A /* ClipboardSugar */ = {
+			isa = PBXGroup;
+			children = (
+				F163AF562337F449003F10D9 /* ClipboardAsserter.swift */,
+				F163AF572337F449003F10D9 /* ClipboardModifier.swift */,
+				F163AF582337F449003F10D9 /* ClipboardParser.swift */,
+			);
+			path = ClipboardSugar;
+			sourceTree = "<group>";
+		};
 		F1FA956522A3C1ED009088FB = {
 			isa = PBXGroup;
 			children = (
-				F1FA959522A3C2F9009088FB /* src */,
+				F17D07D32399864000BA934A /* Sources */,
 				F1FA957022A3C1ED009088FB /* ClipboardSugarExample */,
 				F17D07BE23997FE900BA934A /* ClipboardSugarExampleMacOS */,
 				F1FA956F22A3C1ED009088FB /* Products */,
@@ -112,16 +130,6 @@
 				F1FA957D22A3C1F0009088FB /* Info.plist */,
 			);
 			path = ClipboardSugarExample;
-			sourceTree = "<group>";
-		};
-		F1FA959522A3C2F9009088FB /* src */ = {
-			isa = PBXGroup;
-			children = (
-				F163AF562337F449003F10D9 /* ClipboardAsserter.swift */,
-				F163AF572337F449003F10D9 /* ClipboardModifier.swift */,
-				F163AF582337F449003F10D9 /* ClipboardParser.swift */,
-			);
-			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
