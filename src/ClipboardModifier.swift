@@ -16,12 +16,18 @@ import Cocoa
  */
 public class ClipboardModifier {
    #if os(macOS)
+   /**
+    * Set string data
+    */
    public static func setStringData(_ string: String, _ clipboardFormat: String) {
       let thePasteboard = Pasteboard.general
-      thePasteboard.clearContents()/* Clear any previous data, since a sys clipboard can have 2 version of the same data etc */
+      thePasteboard.clearContents() // Clear any previous data, since a sys clipboard can have 2 version of the same data etc
       thePasteboard.setString(string, forType: Pasteboard.PasteboardType(rawValue: clipboardFormat))
    }
    #endif
+   /**
+    * Set string
+    */
    public static func setString(string: String) {
       #if os(iOS)
       Pasteboard.general.string = string

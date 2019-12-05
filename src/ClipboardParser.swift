@@ -6,10 +6,12 @@ import Cocoa
 typealias Pasteboard = NSPasteboard
 #endif
 /**
- * Fixme: ⚠️️ clean up this class, there are types for ios etc. google it
+ * - Fixme: ⚠️️ clean up this class, there are types for ios etc. google it
+ * - Fixme: add support for data and other fileformats etc
  */
 public class ClipboardParser {
    /**
+    * Returns string data if there is any in the clipboard
     * - Remark: remember to assert if the clipboard has the requested format first by using ClipboardAsserter.hasData etc
     */
    public static func getString() -> String? {

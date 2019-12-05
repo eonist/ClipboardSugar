@@ -3,8 +3,7 @@ Sugar for clipboard
 
 ### Install
 - Manual: open `.xcodeproj`
-- Carthage: `github "eonist/ClipboardSugar" "master"`
-- CocoaPod (coming soon)
+- SPM: `.package(url: "https://github.com/eonist/ClipboardSugar.git", .branch("master"))`
 
 ## Example:
 ```swift
