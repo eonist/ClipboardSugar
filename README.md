@@ -13,3 +13,6 @@ let str = ClipboardParser.getString()
 Swift.print("str:  \(str)")
 ClipboardModifier.setString(string: "Something")
 ```
+
+## Todo: 
+- Add github tests
