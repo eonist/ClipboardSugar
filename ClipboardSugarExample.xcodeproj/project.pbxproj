@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F17D079023997E9100BA934A /* ClipboardAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF562337F449003F10D9 /* ClipboardAsserter.swift */; };
+		F17D079123997E9100BA934A /* ClipboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF572337F449003F10D9 /* ClipboardModifier.swift */; };
+		F17D079223997E9100BA934A /* ClipboardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF582337F449003F10D9 /* ClipboardParser.swift */; };
+		F17D07C023997FE900BA934A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17D07BF23997FE900BA934A /* AppDelegate.swift */; };
+		F17D07C223997FEC00BA934A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17D07C123997FEC00BA934A /* Assets.xcassets */; };
+		F17D07C523997FEC00BA934A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F17D07C323997FEC00BA934A /* MainMenu.xib */; };
+		F17D07CB2399806A00BA934A /* ClipboardAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF562337F449003F10D9 /* ClipboardAsserter.swift */; };
+		F17D07CC2399806A00BA934A /* ClipboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF572337F449003F10D9 /* ClipboardModifier.swift */; };
+		F17D07CD2399806A00BA934A /* ClipboardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163AF582337F449003F10D9 /* ClipboardParser.swift */; };
+		F1FA957222A3C1ED009088FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA957122A3C1ED009088FB /* AppDelegate.swift */; };
+		F1FA957422A3C1ED009088FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA957322A3C1ED009088FB /* ViewController.swift */; };
+		F1FA957922A3C1F0009088FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FA957822A3C1F0009088FB /* Assets.xcassets */; };
+		F1FA957C22A3C1F0009088FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FA957A22A3C1F0009088FB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1FA959422A3C2C2009088FB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F163AF562337F449003F10D9 /* ClipboardAsserter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardAsserter.swift; sourceTree = "<group>"; };
+		F163AF572337F449003F10D9 /* ClipboardModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardModifier.swift; sourceTree = "<group>"; };
+		F163AF582337F449003F10D9 /* ClipboardParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardParser.swift; sourceTree = "<group>"; };
+		F17D07BD23997FE900BA934A /* ClipboardSugarExampleMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardSugarExampleMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17D07BF23997FE900BA934A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F17D07C123997FEC00BA934A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F17D07C423997FEC00BA934A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F17D07C623997FEC00BA934A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17D07C723997FEC00BA934A /* ClipboardSugarExampleMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClipboardSugarExampleMacOS.entitlements; sourceTree = "<group>"; };
+		F1FA956E22A3C1ED009088FB /* ClipboardSugarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardSugarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FA957122A3C1ED009088FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1FA957322A3C1ED009088FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1FA957822A3C1F0009088FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1FA957B22A3C1F0009088FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1FA957D22A3C1F0009088FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F17D07BA23997FE900BA934A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FA956B22A3C1ED009088FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F17D07BE23997FE900BA934A /* ClipboardSugarExampleMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				F17D07BF23997FE900BA934A /* AppDelegate.swift */,
+				F17D07C123997FEC00BA934A /* Assets.xcassets */,
+				F17D07C323997FEC00BA934A /* MainMenu.xib */,
+				F17D07C623997FEC00BA934A /* Info.plist */,
+				F17D07C723997FEC00BA934A /* ClipboardSugarExampleMacOS.entitlements */,
+			);
+			path = ClipboardSugarExampleMacOS;
+			sourceTree = "<group>";
+		};
+		F17D07D32399864000BA934A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F17D07D42399864000BA934A /* ClipboardSugar */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F17D07D42399864000BA934A /* ClipboardSugar */ = {
+			isa = PBXGroup;
+			children = (
+				F163AF562337F449003F10D9 /* ClipboardAsserter.swift */,
+				F163AF572337F449003F10D9 /* ClipboardModifier.swift */,
+				F163AF582337F449003F10D9 /* ClipboardParser.swift */,
+			);
+			path = ClipboardSugar;
+			sourceTree = "<group>";
+		};
+		F1FA956522A3C1ED009088FB = {
+			isa = PBXGroup;
+			children = (
+				F17D07D32399864000BA934A /* Sources */,
+				F1FA957022A3C1ED009088FB /* ClipboardSugarExample */,
+				F17D07BE23997FE900BA934A /* ClipboardSugarExampleMacOS */,
+				F1FA956F22A3C1ED009088FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FA956F22A3C1ED009088FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA956E22A3C1ED009088FB /* ClipboardSugarExample.app */,
+				F17D07BD23997FE900BA934A /* ClipboardSugarExampleMacOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FA957022A3C1ED009088FB /* ClipboardSugarExample */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA957122A3C1ED009088FB /* AppDelegate.swift */,
+				F1FA957322A3C1ED009088FB /* ViewController.swift */,
+				F1FA957822A3C1F0009088FB /* Assets.xcassets */,
+				F1FA957A22A3C1F0009088FB /* LaunchScreen.storyboard */,
+				F1FA957D22A3C1F0009088FB /* Info.plist */,
+			);
+			path = ClipboardSugarExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F17D07BC23997FE900BA934A /* ClipboardSugarExampleMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17D07C823997FEC00BA934A /* Build configuration list for PBXNativeTarget "ClipboardSugarExampleMacOS" */;
+			buildPhases = (
+				F17D07B923997FE900BA934A /* Sources */,
+				F17D07BA23997FE900BA934A /* Frameworks */,
+				F17D07BB23997FE900BA934A /* Resources */,
+				F17D07D8239987C900BA934A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipboardSugarExampleMacOS;
+			productName = ClipboardSugarExampleMacOS;
+			productReference = F17D07BD23997FE900BA934A /* ClipboardSugarExampleMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1FA956D22A3C1ED009088FB /* ClipboardSugarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FA958022A3C1F0009088FB /* Build configuration list for PBXNativeTarget "ClipboardSugarExample" */;
+			buildPhases = (
+				F1FA956A22A3C1ED009088FB /* Sources */,
+				F1FA956B22A3C1ED009088FB /* Frameworks */,
+				F1FA956C22A3C1ED009088FB /* Resources */,
+				F1FA959422A3C2C2009088FB /* Embed Frameworks */,
+				F17D07D9239987DC00BA934A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipboardSugarExample;
+			productName = ClipboardSugarExample;
+			productReference = F1FA956E22A3C1ED009088FB /* ClipboardSugarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FA956622A3C1ED009088FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = FutureLab;
+				TargetAttributes = {
+					F17D07BC23997FE900BA934A = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					F1FA956D22A3C1ED009088FB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = F1FA956922A3C1ED009088FB /* Build configuration list for PBXProject "ClipboardSugarExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1FA956522A3C1ED009088FB;
+			productRefGroup = F1FA956F22A3C1ED009088FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FA956D22A3C1ED009088FB /* ClipboardSugarExample */,
+				F17D07BC23997FE900BA934A /* ClipboardSugarExampleMacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F17D07BB23997FE900BA934A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17D07C223997FEC00BA934A /* Assets.xcassets in Resources */,
+				F17D07C523997FEC00BA934A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FA956C22A3C1ED009088FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FA957C22A3C1F0009088FB /* LaunchScreen.storyboard in Resources */,
+				F1FA957922A3C1F0009088FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F17D07D8239987C900BA934A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		F17D07D9239987DC00BA934A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F17D07B923997FE900BA934A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17D07C023997FE900BA934A /* AppDelegate.swift in Sources */,
+				F17D07CD2399806A00BA934A /* ClipboardParser.swift in Sources */,
+				F17D07CC2399806A00BA934A /* ClipboardModifier.swift in Sources */,
+				F17D07CB2399806A00BA934A /* ClipboardAsserter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FA956A22A3C1ED009088FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17D079223997E9100BA934A /* ClipboardParser.swift in Sources */,
+				F1FA957422A3C1ED009088FB /* ViewController.swift in Sources */,
+				F17D079123997E9100BA934A /* ClipboardModifier.swift in Sources */,
+				F1FA957222A3C1ED009088FB /* AppDelegate.swift in Sources */,
+				F17D079023997E9100BA934A /* ClipboardAsserter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F17D07C323997FEC00BA934A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F17D07C423997FEC00BA934A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F1FA957A22A3C1F0009088FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FA957B22A3C1F0009088FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F17D07C923997FEC00BA934A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ClipboardSugarExampleMacOS/ClipboardSugarExampleMacOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClipboardSugarExampleMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ClipboardSugarExampleMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F17D07CA23997FEC00BA934A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ClipboardSugarExampleMacOS/ClipboardSugarExampleMacOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClipboardSugarExampleMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ClipboardSugarExampleMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F1FA957E22A3C1F0009088FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1FA957F22A3C1F0009088FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FA958122A3C1F0009088FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClipboardSugarExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ClipboardSugarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1FA958222A3C1F0009088FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClipboardSugarExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ClipboardSugarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F17D07C823997FEC00BA934A /* Build configuration list for PBXNativeTarget "ClipboardSugarExampleMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17D07C923997FEC00BA934A /* Debug */,
+				F17D07CA23997FEC00BA934A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FA956922A3C1ED009088FB /* Build configuration list for PBXProject "ClipboardSugarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FA957E22A3C1F0009088FB /* Debug */,
+				F1FA957F22A3C1F0009088FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FA958022A3C1F0009088FB /* Build configuration list for PBXNativeTarget "ClipboardSugarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FA958122A3C1F0009088FB /* Debug */,
+				F1FA958222A3C1F0009088FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FA956622A3C1ED009088FB /* Project object */;
+}
