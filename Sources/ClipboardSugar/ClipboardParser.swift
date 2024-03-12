@@ -6,31 +6,32 @@ import Cocoa
 typealias Pasteboard = NSPasteboard
 #endif
 /**
- * - Fixme: ⚠️️ clean up this class, there are types for ios etc. google it
- * - Fixme: add support for data and other fileformats etc
+ * Universal clipboard lib for macOS and iOS
+ * - Fixme: ⚠️️ Clean up this class, there are types for iOS etc. google it
+ * - Fixme: ⚠️️ Add support for data and other file-formats etc
  */
-public class ClipboardParser {
+public final class ClipboardParser {
    /**
     * Returns string data if there is any in the clipboard
-    * - Remark: remember to assert if the clipboard has the requested format first by using ClipboardAsserter.hasData etc
+    * - Remark: Remember to assert if the clipboard has the requested format first by using `ClipboardAsserter.hasData` etc
     */
    public static func getString() -> String? {
       #if os(iOS)
-      return Pasteboard.general.string
+      return Pasteboard.general.string // Get the string from the general pasteboard on iOS
       #elseif os(macOS)
-      return stringData(Pasteboard.PasteboardType.string.rawValue)
+      return stringData(Pasteboard.PasteboardType.string.rawValue) // Get the string data from the pasteboard for the specified clipboard format on macOS
       #endif
    }
    #if os(macOS)
    /**
-    * - Note: remember to assert if the clipboard has the requested format first by using ClipboardAsserter.hasData etc
-    * - Paramter textFormat: ClipboardFormats.TEXT_FORMAT etc
+    * - Remark: Remember to assert if the clipboard has the requested format first by using `ClipboardAsserter.hasData` etc
     * - Remark: NSStringPboardType etc
+    * - Paramter dataType: `ClipboardFormats.TEXT_FORMAT` etc
     */
    public static func stringData(_ dataType: String) -> String? {
-      let pasteboard = Pasteboard.general
-      let data: String? = pasteboard.string(forType: Pasteboard.PasteboardType(rawValue: dataType))
-      return data
+      let pasteboard: NSPasteboard = Pasteboard.general // Get the general pasteboard
+      let data: String? = pasteboard.string(forType: Pasteboard.PasteboardType(rawValue: dataType)) // Get the string data from the pasteboard for the specified clipboard format
+      return data // Return the string data
    }
    #endif
 }
