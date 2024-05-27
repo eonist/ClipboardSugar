@@ -5,7 +5,6 @@ import Cocoa
 #endif
 /**
  * Universal clipboard lib for macOS and iOS
- * - Fixme: ⚠️️ move this to external repo again?
  */
 public final class ClipboardAsserter { // fix: move to own lib again when compute / memory allows for it
    #if os(macOS)

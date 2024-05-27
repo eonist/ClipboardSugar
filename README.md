@@ -16,3 +16,5 @@ ClipboardModifier.setString(string: "Something")
 
 ## Todo: 
 - Add github tests
+- Look for more modern OSS code
+- Ask copilot for improvments
