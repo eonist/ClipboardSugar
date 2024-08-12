@@ -5,6 +5,7 @@ import Cocoa
 #endif
 /**
  * Universal clipboard lib for macOS and iOS
+ * - Description: Provides methods to modify the system clipboard's contents, allowing the setting of various data formats for both macOS and iOS platforms.
  * - Remark: On Mac OS, when you set the format parameter to ClipboardFormats.URL_FORMAT, the URL is transferred only if it is a valid URL. Otherwise, the Clipboard object is emptied (and calling getData() returns null).
  * - Remark: Clipboard.generalClipboard.setDataHandler can set a method and when the data is pasted this method is called and then it returns some data that ultimaltly ends up as the pasted data
  * ClipboardFormats.TEXT_FORMAT String   string data
@@ -19,6 +20,7 @@ public final class ClipboardModifier {
    #if os(macOS)
    /**
     * Set string data
+    * - Description: Sets the specified string data to the clipboard in the given format.
     * - Parameters:
     *   - string: String to copy to clipboard
     *   - clipboardFormat: Format of the string
@@ -31,6 +33,7 @@ public final class ClipboardModifier {
    #endif
    /**
     * Set string
+    * - Description: Copies the provided string to the system clipboard.
     * - Parameter string: String to copy to clipboard
     */
    public static func setString(string: String) {

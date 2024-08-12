@@ -1,5 +1,12 @@
 # ClipboardSugar
-Sugar for clipboard
+> Sugar for clipboard
+
+### Description:
+This library provides easy-to-use Swift utilities for interacting with the clipboard on macOS.
+
+### Prerequisites
+- macOS 10.15+
+- Swift 5.3+
 
 ### Install
 - Manual: open `.xcodeproj`

@@ -7,12 +7,14 @@ typealias Pasteboard = NSPasteboard
 #endif
 /**
  * Universal clipboard lib for macOS and iOS
+ * - Description: Provides methods to parse and retrieve various data formats from the system clipboard for both macOS and iOS platforms.
  * - Fixme: ⚠️️ Clean up this class, there are types for iOS etc. google it
  * - Fixme: ⚠️️ Add support for data and other file-formats etc
  */
 public final class ClipboardParser {
    /**
     * Returns string data if there is any in the clipboard
+    * - Description: Retrieves a string from the system clipboard if available.
     * - Remark: Remember to assert if the clipboard has the requested format first by using `ClipboardAsserter.hasData` etc
     */
    public static func getString() -> String? {
@@ -24,6 +26,7 @@ public final class ClipboardParser {
    }
    #if os(macOS)
    /**
+    * Retrieves string data from the clipboard based on the specified data type.
     * - Remark: Remember to assert if the clipboard has the requested format first by using `ClipboardAsserter.hasData` etc
     * - Remark: NSStringPboardType etc
     * - Paramter dataType: `ClipboardFormats.TEXT_FORMAT` etc

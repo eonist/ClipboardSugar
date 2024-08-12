@@ -5,11 +5,13 @@ import Cocoa
 #endif
 /**
  * Universal clipboard lib for macOS and iOS
+ * - Description: Provides functionality to assert the presence of specific types of data in the system clipboard for both macOS and iOS platforms.
  */
 public final class ClipboardAsserter { // fix: move to own lib again when compute / memory allows for it
    #if os(macOS)
    /**
     * Asserts if the clipboard has data of a specific type
+    * - Description: Checks if the clipboard contains data of the specified format.
     * - Parameter clipboardFormat: ClipboardFormats.TEXT_FORMAT , ClipboardFormats.HTML_FORMAT, etc
     */
    public static func hasData(_ clipboardFormat: String) -> Bool { // Untested
@@ -19,6 +21,7 @@ public final class ClipboardAsserter { // fix: move to own lib again when comput
    #endif
    /**
     * Asserts if the clipboard has data of string type
+    * - Description: Checks if the clipboard contains any string data.
     */
    public static func hasString() -> Bool { // Untested
       #if os(iOS)
