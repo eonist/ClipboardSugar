@@ -1,3 +1,5 @@
+[![Tests](https://github.com/eonist/ClipboardSugar/actions/workflows/Tests.yml/badge.svg)](https://github.com/eonist/ClipboardSugar/actions/workflows/Tests.yml)
+
 # ClipboardSugar
 > Sugar for clipboard
 
