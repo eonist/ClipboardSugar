@@ -40,7 +40,7 @@ public final class ClipboardModifier {
       #if os(iOS)
       Pasteboard.general.string = string // Set the string on the general pasteboard on iOS
       #elseif os(macOS)
-      return setStringData(string, Pasteboard.PasteboardType.string.rawValue) // Set the string data on the pasteboard for the specified clipboard format on macOS
+      /*return*/ setStringData(string, Pasteboard.PasteboardType.string.rawValue) // Set the string data on the pasteboard for the specified clipboard format on macOS
       #endif
    }
 }

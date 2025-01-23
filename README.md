@@ -27,3 +27,20 @@ ClipboardModifier.setString(string: "Something")
 - Add github tests
 - Look for more modern OSS code
 - Ask copilot for improvments
+- Create unit tests for this functionality to separate testing logic from the view controller.
+```swift
+import XCTest
+@testable import ClipboardSugar
+
+class ClipboardSugarTests: XCTestCase {
+   func testClipboardFunctions() {
+      // Test setting string
+      ClipboardModifier.setString(string: "Test String")
+      XCTAssertTrue(ClipboardAsserter.hasString())
+      
+      // Test getting string
+      let str = ClipboardParser.getString()
+      XCTAssertEqual(str, "Test String")
+   }
+}
+```
